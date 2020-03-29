@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #648767;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2vw;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e5df;
+  text-shadow: 2px 2px #788475;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a2c5ac;
+  text-shadow: 2px 2px #52796F;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c d e f";
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5vw;
+}
+
+.index {
+  grid-area: a;
+}
+
+.about {
+  grid-area: d;
+}
+
+.portfolio {
+  grid-area: e;
+}
+
+.hobby {
+  grid-area: f;
+  padding-right: 10px;
+}
+
+.about-me {
+  width: 100%;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "a b";
+}
+
+.about-me img {
+  width: 75%;
+  padding: 50px;
+  border-radius: 10%;
+}
+
+.about-me h1 {
+  font-size: 4vw;
+  font-family: 'Permanent Marker', cursive;
+  padding: 10 20;
+  margin: 0;
+  max-width: 90%;
+}
+
+.about-me p {
+  font-family: 'Overpass', sans-serif;
+  font-size: 2vw;
+  padding: 10 20;
+  max-width: 90%;
+}
+
+.things-i-love {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "a b c d e";
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  padding: 0px 5px 20px 5px;
+}
+
+.things-i-love li img {
+  border-radius: 50%;
+  width: 15vw;
+}
+
+.things-i-love li img:hover {
+  box-shadow: 0 0 15px #E2E5DF;
+}
+
+
+
+footer > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c";
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+}

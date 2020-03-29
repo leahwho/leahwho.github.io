@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #648767;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e5df;
+  text-shadow: 2px 2px #788475;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a2c5ac;
+  text-shadow: 2px 2px #52796F;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c d e f";
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5vw;
+}
+
+.index {
+  grid-area: a;
+}
+
+.about {
+  grid-area: d;
+}
+
+.portfolio {
+  grid-area: e;
+}
+
+.hobby {
+  grid-area: f;
+  padding-right: 10px;
+}
+
+header {
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 2px 2px #52796F;
+  font-size: 2em;
+  text-align: center;
+}
+
+.work {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.work li {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.work li img {
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+}
+
+.work li img:hover {
+  box-shadow: 0 0 15px #E2E5DF;
+}
+
+
+footer > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c";
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+}
+
